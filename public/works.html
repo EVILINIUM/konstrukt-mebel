@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Konstrukt Mebel — реализованные проекты</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+
+      <a class="brand" href="index.html#home">
+        <img class="brand__img" src="./img/logo.jpg" alt="Konstrukt Mebel — логотип">
+        <span class="brand__text">
+          <span class="brand__name">Konstrukt Mebel</span>
+          <span class="brand__tagline">Мебель на заказ</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html#home">Главная</a>
+        <a href="index.html#order">Кухни</a>
+        <a href="index.html#order">Шкафы-купе</a>
+        <a href="works.html">Реализованные проекты</a>
+        <a href="index.html#contacts">Контакты</a>
+      </nav>
+
+      <div class="header__right">
+        <a class="icon-btn" href="https://t.me/Mebel_Interior_124" target="_blank" aria-label="Telegram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+            <path d="M9.7 14.7 9.5 19c.4 0 .6-.2.8-.4l2-1.9 4.1 3c.8.4 1.3.2 1.5-.7l2.8-13c.2-1-.4-1.4-1.2-1.1L3.5 10.2c-1 .4-1 1 0 1.3l4.1 1.3 9.6-6.1c.5-.3.9-.1.6.2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a class="phone" href="tel:89133484831">8 913 348-48-31</a>
+      </div>
+
+    </div>
+  </header>
+
+  <section class="section section--mid">
+    <div class="container">
+      <h1 class="section__title center">Реализованные проекты</h1>
+      <p class="section__text center">Нажмите на фото, чтобы открыть на весь экран.</p>
+
+      <div class="gallery-grid">
+        <!-- ВАЖНО: href = полный файл картинки -->
+         
+        <a class="gallery-card" href="./img/work-1.jpg">
+          <img src="./img/work-1.jpg" alt="Проект 1">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-2.jpg">
+          <img src="./img/work-2.jpg" alt="Проект 2">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-3.jpg">
+          <img src="./img/work-3.jpg" alt="Проект 3">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-4.jpg">
+          <img src="./img/work-4.jpg" alt="Проект 4">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-5.jpg">
+          <img src="./img/work-5.jpg" alt="Проект 5">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-6.jpg">
+          <img src="./img/work-6.jpg" alt="Проект 6">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+        
+        <a class="gallery-card" href="./img/work-7.jpg">
+          <img src="./img/work-7.jpg" alt="Проект 7">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-8.jpg">
+          <img src="./img/work-8.jpg" alt="Проект 8">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-9.jpg">
+          <img src="./img/work-9.jpg" alt="Проект 9">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-10.jpg">
+          <img src="./img/work-10.jpg" alt="Проект 10">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-11.jpg">
+          <img src="./img/work-11.jpg" alt="Проект 11">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-12.jpg">
+          <img src="./img/work-12.jpg" alt="Проект 12">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-13.jpg">
+          <img src="./img/work-13.jpg" alt="Проект 13">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+
+        <a class="gallery-card" href="./img/work-14.jpg">
+          <img src="./img/work-14.jpg" alt="Проект 14">
+          <div class="gallery-card__hover">Открыть</div>
+        </a>
+      
+      
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lightboxClose" type="button" aria-label="Закрыть">×</button>
+
+  <button class="lightbox__nav lightbox__prev" id="lightboxPrev" type="button" aria-label="Предыдущее фото">‹</button>
+  <button class="lightbox__nav lightbox__next" id="lightboxNext" type="button" aria-label="Следующее фото">›</button>
+
+  <div class="lightbox__stage" role="dialog" aria-modal="true" aria-label="Просмотр изображения">
+    <img class="lightbox__img" id="lightboxImg" alt="">
+  </div>
+</div>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© 2026 Konstrukt Mebel. Мебель на заказ.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
